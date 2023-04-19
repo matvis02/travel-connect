@@ -1,10 +1,11 @@
 import React from "react"
-import Navbar from "../components/navbar"
+import NavBar from "../components/navBar"
+import Filters from "../components/filters"
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <NavBar />
     </>
   )
 }
